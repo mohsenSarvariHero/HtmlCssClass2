@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in Html</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+
+    <form>
+      <label>first Name : </label>
+      <input type="text" placeholder="mohsen" maxlength="5" />
+      <br />
+      <br />
+
+      <label>last Name : </label>
+      <input type="text" placeholder="sarvari" />
+
+      <br />
+      <br />
+
+      <label>password : </label>
+      <input type="password" max="10" min="5" required />
+
+      <br />
+      <br />
+      <label>email : </label>
+      <input type="email" />
+
+      <br />
+      <br />
+
+      <label>phone : </label>
+      <input
+        type="tel"
+        placeholder="123-456-7894"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+      />
+
+      <br />
+      <br />
+      <label>Date : </label>
+      <input type="date" />
+      <br />
+      <br />
+
+      <label>quantity : </label>
+      <input type="number" min="0" max="10" />
+
+      <br />
+      <br />
+
+      <label>Lessons :</label>
+      <br />
+      <br />
+      <input type="radio"  />
+      <label>Html</label>
+      <input type="radio"  />
+      <label>CSS</label>
+      <input type="radio" />
+      <label>JS</label>
+
+      <br />
+      <br />
+
+      <label>payment</label>
+      <br />
+      <select>
+        <option>card</option>
+        <option>card1</option>
+        <option>card2</option>
+        <option>card3</option>
+      </select>
+      <br />
+      <br />
+
+      <label>commnts : </label>
+      <br />
+      <textarea rows="5" cols="15"></textarea>
+
+      <br />
+      <br />
+
+      <label>file: </label>
+      <input type="file" >
+      <br />
+      <br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
