@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+#idHone{
+    text-align: left;
+}
+.hone{
+    text-align: right;
+}
+@font-face {
+    font-family: "yekan" ;
+    src: url("../Yekan.ttf");
+}
+.pone{
+    font-size: 40px;
+    font-weight:bold ;
+    font-family:"yekan";
+    
+}
+
