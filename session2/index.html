@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in Html</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+
+    <form>
+      <fieldset>
+        <legend style="padding: 22px;">Name</legend>
+        <label>first Name : </label>
+        <input type="text" placeholder="mohsen"  pattern="[A-Z]{5}-[0-9]{1}-[@,!]{1}-"  required/>
+        <br />
+        <br />
+
+        <label>last Name : </label>
+        <input type="text" placeholder="sarvari" />
+      </fieldset>
+
+      <br />
+      <br />
+
+      <label>password : </label>
+      <input type="password" minlength="5" maxlength="10"  />
+
+      <br />
+      <br />
+      <label>email : </label>
+      <input type="email" />
+
+      <br />
+      <br />
+
+      <label>phone : </label>
+      <input
+        type="tel"
+        placeholder="123-456-7894"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+      />
+
+      <br />
+      <br />
+      <label>Date : </label>
+      <input type="date" />
+      <br />
+      <br />
+
+      <label>quantity : </label>
+      <input type="number" min="0" max="10" />
+
+      <br />
+      <br />
+
+      <label>Lessons :</label>
+      <br />
+      <br />
+      <label>Lessons:</label>
+      <br /><br />
+      <input type="radio" id="html" name="lesson" value="html" onclick="toggleRadio(this)" />
+      <label for="html">HTML</label>
+      <br />
+      <input type="radio" id="css" name="lesson" value="css" onclick="toggleRadio(this)" />
+      <label for="css">CSS</label>
+      <br />
+      <input type="radio" id="js" name="lesson" value="js" onclick="toggleRadio(this)" />
+      <label for="js">JS</label>
+
+      <br />
+      <br />
+
+      <label>payment</label>
+      <br />
+      <select>
+        <option>card</option>
+        <option>card1</option>
+        <option>card2</option>
+        <option>card3</option>
+      </select>
+      <br />
+      <br />
+
+      <label>commnts : </label>
+      <br />
+      <textarea rows="5" cols="15"></textarea>
+
+      <br />
+      <br />
+
+      <label>file: </label>
+      <input type="file" />
+      <br />
+      <br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+
+    <script>
+      function toggleRadio(radio) {
+        if (radio.checked) {
+          radio.checked = false; // Uncheck if already checked
+        } else {
+          radio.checked = true; // Check it again
+        }
+      }
+    </script>
+  </body>
+</html>
