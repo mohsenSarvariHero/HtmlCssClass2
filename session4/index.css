@@ -1,0 +1,38 @@
+
+.ulFirst{
+    background-color: black;
+    color: antiquewhite;
+    list-style-type: none;
+}
+.ulFirst--li{
+    cursor: pointer;
+    font-size: 20px;
+}
+.divOne--h2{
+    color: rgb(231, 35, 35);
+    font-size: 70px;
+    text-align: center;
+}
+
+.diwTwo{
+    text-align: center;
+    background-color: aqua;
+    color: beige;
+    height: 400px;
+    opacity: 0.7;
+}
+.divThree{
+    background-image: url("img/gh.webp");
+    height: 500px;
+    /* background-position: right bottom; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+/* 
+    border-style: solid;
+    border-width: 15px;
+    border-color: blue; */
+    border: solid 5px blue;
+    border-right: 10px solid green;
+
+}
